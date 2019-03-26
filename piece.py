@@ -207,7 +207,7 @@ class Pawn(Piece):
     def valid_moves(self, board):
         i = self.row
         j = self.col
-
+        movesss = []
         moves = []
         if self.color == "b":
             if self.first:
